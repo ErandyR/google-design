@@ -1,0 +1,24 @@
+@import 'grid';
+@import 'variables';
+
+ul{
+    list-style: none;
+    li{
+        display: inline-block;
+        text-align: center;
+        font-family: $tipo-letra;
+        color: $gris-oscuro-titulos;
+        a{
+            text-decoration: none;   
+            color: $gris-oscuro-titulos;
+            font-weight: $negrita;
+        }
+    }
+}
+.contenedor-img{
+    display: flex;
+    align-content: center;
+    img{
+        
+    }
+}
